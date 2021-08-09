@@ -1,0 +1,163 @@
+h1{
+  font-family: Courier;
+  text-align: center;
+  padding-left: 6%;
+  height: 14%;
+  font-weight: bold;
+  font-size: 4.3em;
+}
+body{
+background-color: #C4A484;
+}
+p{
+  text-align: center;
+  font-family:fantasy;
+  font-size: 30px;
+}
+.page{
+  background-color: #FFE4B5;
+  background-position: center;
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 70%;
+  height: 1000px;
+  right: 190px;
+  left: 16%;
+  position: absolute;
+
+}
+.innermid{
+  background-color: #BDB76B;
+  border-radius: 1rem 1rem 1rem 1rem;
+  position: absolute;
+  width: 60%;
+  height: 15%;
+  top: 20%;
+  left: 22%;
+}
+.toolholder{
+  position: relative;
+	height: 70%;
+	left: 15%;
+  z-index: 1;
+  top: 12%;
+}
+.tool{
+  max-width: 105%;
+  max-height: 105%;
+  position:absolute;
+  z-index: 2;
+  border-radius: 4rem 4rem 4rem 4rem;
+}
+
+#paper{
+  top:-4%;
+  padding-left:-10%;
+  left: 59%;
+  opacity: 1;
+  background-color: blue;
+
+}
+#scissor{
+  top: -10%;
+  left: -10%;
+  padding-left: 2%;
+  opacity: 1;
+
+}
+#rock{
+  left: 20%;
+  opacity: 1;
+}
+.btn0{
+  top: 125px;
+  position: absolute;
+  left: 27%;
+  width: 15%;
+  height: 28%;
+  color: black;
+  background-color: gray;
+  text-shadow:1px 1px 2px pink;
+}
+.btn1{
+  top: 115px;
+  position:absolute;
+  left: -8%;
+  width: 15%;
+  height: 28%;
+  color: black;
+  background-color: gray;
+  text-shadow:1px 1px 2px pink;
+}
+.btn2{
+  width: 15%;
+  height: 28%;
+  color: black;
+  background-color: gray;
+  text-shadow:1px 1px 2px pink;
+  position: absolute;
+  top: 120px;
+  left: 65%;
+}
+.scores {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 30%;
+    left: 35%;
+}
+.scores div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 5px solid rgb(27, 27, 31);
+    top: 70px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+#reset {
+    width: 120px;
+    height: 40px;
+    margin-top: 55%;
+    left: 44%;
+    background-color: #5f0b3d;
+    color: #d45069;
+    font-size: 20px;
+    position: absolute;
+}
+#results {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5f0b3d;
+    left:47%;
+    margin-top:39%;
+    position: absolute;
+}
+
+#playerLabels{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5f0b3d;
+    position: absolute;
+    top: 46%;
+    left: 35%;
+}
+
+#compLabels{
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5f0b3d;
+    position: absolute;
+    top: 46%;
+    left: 50.5%;
+}
